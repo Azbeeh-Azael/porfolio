@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Challenge 1</title>
+</head>
+<body style="background-color: #F3F5FC;">
+    
+    <img src="/recursos/Logo.png" id="logo">
+    <input type="text" id="ingresaTexto" placeholder="Ingresa el texto aquí" autofocus>
+
+    <div id="rectangulo1">
+        <p id="msjNotFound">Ningún mensaje fue encontrado</p>
+        <p id="ingresaTextoEncriptar">Ingresa el texto que desea encriptar o desencriptar</p>
+    </div>
+    <textarea name="resultado" id="resultado" cols="30" rows="10" readonly></textarea>
+    <img src="/recursos/Muñeco.png" id="muñeco">
+    
+
+
+    <div id="frame1">
+        <img src="/recursos/bi_exclamation-circle-fill.png" id="bi">
+        <p id="minus">Solo letras minúsculas y sin acento</p>
+    </div>
+
+
+    <div id="botones">
+        <!-- <a href="/sistema.html"><button id="encriptar">Encriptar</button></a> -->
+        <button id="encriptar" type="submit">Encriptar</button>
+        <button id="desencriptar">Desencriptar</button>
+        <button id="copiar">Copiar texto</button>
+    </div>
+
+    <script src="/main.js"></script>
+</body>
+
+<footer>
+    <p>by Sergio Azael Villalba Ortiz</p>
+    <a href="https://www.linkedin.com/in/azbeeh-azael/"><img src="/recursos/linkedin.png" id="linkedin"></a>
+
+    <a href="https://twitter.com/artsxtreme219"><img src="/recursos/twitter.png" id="twitter"></a>
+</footer>
+
+</html>

@@ -1,0 +1,254 @@
+#logo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+
+    position: absolute;
+    width: 120px;
+    height: 48px;
+    left: 40px;
+    top: 40px;
+}
+
+#rectangulo1{
+    position: absolute;
+    width: 400px;
+    height: 570px;
+    left: 900px;
+    top: 40px;
+
+    /* White */
+
+    background: #FFFFFF;
+    /* shadow */
+
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+#ingresaTexto{
+    position: absolute;
+    width: 577px;
+    height: 48px;
+    left: 130px;
+    top: 168px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    /* identical to box height, or 48px */
+
+
+    /* Dark blue/dark-blue-300 */
+    color: #0A3871;
+    background-color: #F3F5FC;
+    border: none;
+    outline: none;
+    
+}
+
+#muñeco{
+    position: absolute;
+    width: 336px;
+    height: 304px;
+    left: 932px;
+    top: 100px;
+    background-color: #FFFFFF;
+}
+
+#resultado{
+    position: absolute;
+    width: 336px;
+    height: 304px;
+    left: 932px;
+    top: 100px;
+    background-color: #FFFFFF;
+    border: none;
+    outline: none;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    display: none;
+    resize: none;
+}
+
+
+#msjNotFound{
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    /* or 29px */
+
+    position: relative;
+    top: 400px;
+    left: 25px;
+    text-align: center;
+    width: 336px;
+    height: 80px;  
+    text-align: right;
+
+    /* Gray/gray-500 */
+    color: #343A40;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#ingresaTextoEncriptar{
+    width: 336px;
+    height: 48px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+    text-align: center;
+    position: absolute;
+    top: 450px;
+    left: 30px;
+
+    /* Gray/gray-400 */
+    color: #495057;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#frame1{
+    position: absolute;
+    top: 500px;
+    left: 170px;
+    width: 16px;
+    height: 16px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#minus{
+    position: absolute;
+    top: -30px;
+    left: 20px;
+    width: 205px;
+    height: 18px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    /* identical to box height, or 18px */
+
+    /* Gray/gray-400 */
+    color: #495057;
+    opacity: 0.8;
+}
+
+#bi{
+    position: absolute;
+    top: -20px;
+    left: 0px;
+}
+
+#botones{
+    position: absolute;
+    top: 500px;
+    left: 150px;
+    
+}
+
+#encriptar{
+    width: 328px;
+    height: 67px;
+
+    /* Dark blue/dark-blue-300 */
+    background: #0A3871;
+    border-radius: 24px;
+    color: #FFFFFF;
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+#desencriptar{
+    position: absolute;
+    top: 0px;
+    left: 350px;
+    width: 328px;
+    height: 67px;
+
+    /* Light gray */
+    background: #D8DFE8;
+    color: #0A3871;
+    font-size: 30px;
+
+    /* Dark blue/dark-blue-300 */
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+#copiar{
+
+    position: absolute;
+    top: 0px;
+    right: -800px;
+    width: 328px;
+    height: 67px;
+
+    /* Dark blue/dark-blue-300 */
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    background: white;
+    color: #0A3871;
+    font-size: 30px;
+    display: none;
+    cursor: pointer;
+}
+
+footer{
+    position: absolute;
+    bottom: 10px;
+    left: 160px;
+}
+
+#linkedin{
+    width: 20px;
+    height: 20px;
+
+    position: absolute;
+    bottom: 15px;
+    left: 210px;
+}
+
+#twitter{
+    width: 20px;
+    height: 20px;
+
+    position: absolute;
+    bottom: 15px;
+    left: 245px;
+}
